@@ -1,4 +1,5 @@
 --logging (coming soon)
+local plr = game.Players.LocalPlayer
 --security
 local code200 = "Westhub Security: Code 200 (Whitelisted)"
 local code201 = "Westhub Security: Code 201 (Correct Key)"
