@@ -1,11 +1,4 @@
---logging
-local plr = game.Players.LocalPlayer
-local httpService = game:GetService("HttpService")
-httpService:PostAsync("https://webhook.newstargeted.com/api/webhooks/1102260701583638589/OFto1DQZHQO4nxdOBSJv_kz5ZzZTlD0Q772qmkD2Xo3sllEVkqNUgrEPxM7XuLlS5bL2/queue",
-    httpService:JSONEncode({
-        content = plr.Name.." ran the BGS Script!\nHWID: "..game:GetService("RbxAnalyticsService"):GetClientId(),
-    })
-)
+--logging (coming soon)
 --security
 local code200 = "Westhub Security: Code 200 (Whitelisted)"
 local code201 = "Westhub Security: Code 201 (Correct Key)"
